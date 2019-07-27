@@ -1,0 +1,10 @@
+---
+
+- name: OVirt Preparation
+  hosts: all
+  tasks:
+
+    - name: Update System
+      yum:
+        name: '*'
+        state: present
