@@ -1,5 +1,0 @@
----
-- name: Deploy oVirt Hosted Engine
-  hosts: all
-  roles:
-    - ovirt.hosted_engine_setup
